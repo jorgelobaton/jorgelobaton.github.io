@@ -1,0 +1,256 @@
+body {
+    font-family: "Share Tech Mono", monospace;
+    background-color: #17191A;
+}
+
+
+
+code {
+    font-family: "Share Tech Mono";
+}
+
+h1 {
+    margin-top: 80px;
+    font-size: 6rem;
+    color: #88C9EE;
+    word-break: break-word;
+}
+/* 
+h1:hover {
+    color: #88C9EE;
+} */
+
+h2 {
+    font-size: 2rem;
+    word-break: break-word;
+}
+
+#schwerpunkt {
+    margin-bottom: 0;
+    padding-bottom: 20px;
+}
+
+#initial-cursor-title {
+    visibility: visible;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2, code {
+    visibility: hidden;
+}
+
+#cv {
+    background-color: rgb(54, 54, 54);
+    color: rgb(232, 232, 232);
+}
+
+#section-beruf {
+    padding-top: 40px;
+    background-color: #17191A;
+}
+
+#section-person {
+    padding-top: 40px;
+    background-color: #12293c;
+    min-height: 500px;
+}
+
+#section-linkedin {
+    background-color: #12293c;
+}
+
+#section-linkedin div {
+    display: flex;
+}
+
+/* #section-linkedin div{
+    display: flex;
+    justify-content: center;
+} */
+
+/* #linkedin .python-function-name:hover,
+#linkedin .python-func-call:hover,  */
+#linkedin .python-string:hover,
+#linkedin .python-variable:hover {
+    color: white;
+}
+
+/* #section-linkedin code{
+    visibility: visible;
+} */
+
+#main {
+    padding-bottom: 40px;
+    background-color: #17191A;
+    color: rgb(232, 232, 232);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#code-person-section {
+    background-color: #17191A;
+}
+
+@media screen and (max-width: 768px) {
+    .date-ifw, .date-iag, .date-prak, .date-master, .date-bachelor, .date-t_kurs {
+        border-top: 5px solid #12293c;
+    }
+    #section-linkedin div {
+        display: block;
+    }
+    h1 {
+        margin-top: 60px;
+        font-size: 4rem;
+        color: #88C9EE;
+        word-break: break-word;
+    }
+}
+
+
+
+/* ---------- Navbar ---------- */
+.navbar .nav-link,
+.navbar .navbar-brand,
+.navbar .python-variable,
+.navbar .python-class-name,
+.navbar .python-function-name,
+.navbar .parenthesis {
+    color: #FFFFFF; /* Sets default color to white */
+}
+
+.navbar .navbar-brand:hover .python-class-name {
+    color: #45BCA2;
+}
+
+.navbar .nav-link:hover .python-function-name {
+    color: #D3D39D;
+}
+
+.navbar .nav-link:hover .parenthesis,
+.navbar .navbar-brand:hover .parenthesis {
+    color: #CDAA08;
+}
+
+.navbar .navbar-brand:hover .python-variable {
+    color: #88C9EE;
+}
+
+.navbar {
+    background-image: linear-gradient(to bottom, #17191A, #17191aab, transparent 99%);
+}
+
+/* .navbar {
+    position: fixed;
+    top: 0;         
+    left: 0;        
+    right: 0;       
+    z-index: 1000;  
+
+    padding-bottom: 20px;
+    background-color: transparent;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.navbar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom, #17191A, #17191aab, transparent 99%);
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+    z-index: -1;
+}
+
+.navbar-trans::before {
+    opacity: 0;
+} */
+
+
+
+
+
+
+
+
+/* ---------- Scrollbar ---------- */
+/* Webkit (Chrome, Safari, etc.) */
+::-webkit-scrollbar {
+    width: 10px; /* Width for vertical scrollbar */
+    height: 10px; /* Height for horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent; /* Transparent track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent; /* Transparent thumb */
+}
+
+/* Show scrollbar thumb on hover */
+*:hover::-webkit-scrollbar-thumb {
+    background: #0c2234; /* Color of the thumb when hovering */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color when hovering over the thumb itself */
+}
+
+/* Firefox */
+* {
+    scrollbar-color: transparent transparent; /* Initially transparent */
+    scrollbar-width: thin; /* Width of the scrollbar */
+}
+
+*:hover {
+    scrollbar-color: #0c2234 #555; /* Thumb and track color on hover */
+}
+
+
+
+
+
+
+
+
+
+/* ---------- Colors for code ---------- */
+.parenthesis {
+    color: #CDAA08;
+}
+
+.python-function, .python-class {
+    color: #4C91D0;
+}
+
+.python-string {
+    color: #C7866D;
+}
+
+.python-attribute, .python-variable, .python-self {
+    color: #88C9EE;
+}
+
+.python-class-name, .python-class-inheritance, .python-func-call {
+    color: #45BCA2;
+}
+.python-function-name {
+    color: #D3D39D;
+}
+
+.python-keyword {
+    color: #B878B3;
+}
+
+.python-type {
+    color: #4C91D0;
+}
+
