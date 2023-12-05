@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jorge Lobaton | Python Entwickler</title>
+    <title>Jorge Lobaton | Ingenieur</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
@@ -11,21 +11,21 @@
     <link rel="stylesheet" href="./cv.css">
 </head>
 <body>
-    <!-- TODO add english page -->
+    <!-- TODO add icon -->
     <!-- TODO change hamburger button -->
     <nav class="navbar fixed-top navbar-expand-sm navbar-trans" id="navbar">
         <div class="container">
-          <a class="navbar-brand" href="index.html"><span class="python-variable">jl</span> = <span class="python-class-name">Absolvent</span><span class="parenthesis">()</span></a>
+          <a class="navbar-brand" href="index.html"><span class="python-variable">jl</span> = <span class="python-class-name">Ingenieur</span><span class="parenthesis">()</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" href="#"><span class="python-function-name">english</span><span class="parenthesis">()</span></a>
+                <a class="nav-link active" href="english.html"><span class="python-function-name">english</span><span class="parenthesis">()</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="https://www.linkedin.com/in/jorge-lobaton"><span class="python-function-name">kontakt</span><span class="parenthesis">()</span></a>
+                <a class="nav-link active" href="https://www.linkedin.com/in/jorgelobaton"><span class="python-function-name">kontakt</span><span class="parenthesis">()</span></a>
               </li>
             </ul>
           </div>
@@ -81,7 +81,6 @@
             </div>
         </div>
         </section>
-        <!-- TODO change pass -->
         <section id="section-beruf">
         <div class="container">
             <div class="berufserfahrung">
@@ -93,7 +92,7 @@
                     <div class="col-md-9">
                         <pre><code class="code-beruf"><span class="python-class">class</span> <span class="python-class-name">Berufserfahrung</span>():
     <span class="python-function">def</span> <span class="python-function-name">__init__</span>(<span class="python-self">self</span>) -> <span class="python-type">None</span>:
-        <span class="python-keyword">pass</span>
+        <span class="python-self">self</span>.<span class="python-attribute">abschnitt</span> = <span class="python-string">"Berufserfahrung"</span>
                         </code></pre>
                     </div>
                 </div>
@@ -140,7 +139,7 @@
                     <div class="col-md-3 date-prak">
                         <pre><code class="code-date-prak">
 <span class="python-variable">jl</span>.<span class="python-variable">praktikant</span>.von = <span class="python-func-call">date</span>(2022, 9)
-<span class="python-variable">jl</span>.<span class="python-variable">parktikant</span>.bis = <span class="python-func-call">date</span>(2022, 11)
+<span class="python-variable">jl</span>.<span class="python-variable">praktikant</span>.bis = <span class="python-func-call">date</span>(2022, 11)
                         </code></pre>
                     </div>
                     <div class="col-md-9">
@@ -164,7 +163,7 @@
                         <pre><code class="code-bildung">
 <span class="python-class">class</span> <span class="python-class-name">Bildungsweg</span>():
     <span class="python-function">def</span> <span class="python-function-name">__init__</span>(<span class="python-self">self</span>) -&gt; <span class="python-type">None</span>:
-        <span class="python-keyword">pass</span>
+        <span class="python-self">self</span>.<span class="python-attribute">abschnitt</span> = <span class="python-string">"Bildungsweg"</span>
                         </code></pre>   
                     </div>
                 </div>
@@ -235,8 +234,8 @@
                 <div class="col-md-12">
             <pre><code class="code-linkedin">
 <span class="python-keyword">import</span> <span class="python-func-call">requests</span>
-<a id="linkedin" href="https://www.linkedin.com/in/jorge-lobaton"><span class="python-variable">linkedin</span> = <span class="python-func-call">requests</span>.<span class="python-function-name">get</span>(
-    <span class="python-string">"www.linkedin.com/in/jorge-lobaton"</span>
+<a id="linkedin" href="https://www.linkedin.com/in/jorgelobaton"><span class="python-variable">linkedin</span> = <span class="python-func-call">requests</span>.<span class="python-function-name">get</span>(
+    <span class="python-string">"www.linkedin.com/in/jorgelobaton"</span>
     )</a>
             </code></pre>
         </div>
